@@ -1,4 +1,4 @@
-package com.spring.basics.springsteps;
+package com.spring.basics.Springsteps;
 
 public interface SortAlgorithm {
 

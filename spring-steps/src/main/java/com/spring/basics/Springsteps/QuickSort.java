@@ -1,5 +1,8 @@
-package com.spring.basics.springsteps;
+package com.spring.basics.Springsteps;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class QuickSort implements SortAlgorithm {
 
 //	public static void main(String[] args) {
