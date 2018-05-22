@@ -1,10 +1,12 @@
-package com.spring.basics.Springsteps;
+package com.spring.basics.Springsteps.basic;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 @Primary
+@Qualifier("bubble")
 public class BubbleSort implements SortAlgorithm{
 
 //	public static void main(String[] args) {

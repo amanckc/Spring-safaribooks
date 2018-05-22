@@ -5,6 +5,8 @@ import org.springframework.boot.SpringApplication;
 
 import org.springframework.context.ApplicationContext;
 
+import com.spring.basics.Springsteps.basic.BinarySearch;
+
 
 
 
@@ -19,6 +21,9 @@ public class SpringStepsApplication {
 		
 		BinarySearch binarySearch=
 				applicationContext.getBean(BinarySearch.class);
+		BinarySearch binarySearch11=
+			applicationContext.getBean(BinarySearch.class);
+		
 		
 		
 		//int answrer=binarySearch.binarysearch(arr, element)

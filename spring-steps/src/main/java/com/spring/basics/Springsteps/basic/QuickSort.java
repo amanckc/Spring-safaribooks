@@ -1,8 +1,10 @@
-package com.spring.basics.Springsteps;
+package com.spring.basics.Springsteps.basic;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
+//@Qualifier("logic")
 public class QuickSort implements SortAlgorithm {
 
 //	public static void main(String[] args) {
